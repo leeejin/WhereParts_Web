@@ -1,0 +1,76 @@
+div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.LightBlue {
+  color: white;
+  background-color: #0066FF;
+}
+.top{
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:10;
+}
+.menu-bar {
+  position:fixed;
+  top:55px;
+  left:0;
+  z-index:10;
+  width: 180px;
+  height: 100vh;
+}
+.sidemenu{
+  padding:15px;
+  color:white;
+  text-align: center;
+
+}
+.sidemenu-inactive {
+  color: white;
+
+}
+.sidemenu-active{
+  color: yellow;
+  font-weight:bold
+ 
+}
+.sidemenu-inactive:hover {
+  cursor: pointer;
+  color:yellow;
+}
+
+.main {
+  margin-left: 180px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width : 998px) {
+  .menu-bar {
+    width: 100%;
+    height: 50px;
+  }
+  .sidemenu {
+    width: 25%;
+    float: left;
+  }
+
+  .main {
+    margin-left: 0px;
+    margin-top:115px;
+  }
+
+}
+@media screen and (max-width : 768px) {
+  .sidemenu {
+    font-size: 12px;
+  }
+}

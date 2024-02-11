@@ -1,0 +1,170 @@
+div {
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 7px;
+    border: none;
+    padding: 8px 12px 8px 12px;
+}
+textarea{
+    resize:none
+}
+/* 테이블 스타일 */
+thead {
+    background-color: #0066FF;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    width: 12rem;
+}
+
+td{
+    vertical-align:middle;
+    text-align: center;
+}
+input[type=radio] {
+    margin-right: 5px;
+}
+
+
+.textcenter {
+    text-align: center;
+}
+
+.fontSize {
+    font-size: 15px;
+}
+
+.loginbutton {
+    padding: 15px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.height {
+    height: 100%;
+}
+
+.login-component {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-component div {
+    width: 400px;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    margin-top: -5px;
+
+}
+
+a.fc-col-header-cell-cushion {
+    color: white;
+}
+
+.MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 10px 32px 7.45px 14px;
+}
+
+.LightBlue {
+    color: white;
+    background-color: #0066FF;
+}
+
+.searchinput {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.searchbutton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.darknavy {
+    color: white;
+    background-color: rgb(44, 62, 80);
+}
+
+.darknavy:hover,
+.darknavy:active {
+    background-color: rgb(37, 49, 61);
+
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 15;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.closeButton:hover {
+    cursor: pointer;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.background {
+    margin: 15px;
+}
+
+.topmenubar {
+    margin: 15px 0px 15px 0px;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.datepicker-one {
+    text-align: center;
+    min-width: 310px;
+    padding: 8px 20px;
+    border-width: 1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.errorMessage {
+    margin-top: 5px;
+    color: red;
+    font-size: 13px;
+}
+
+@media screen and (max-width : 998px) {
+    .fleft {
+        width: 100%;
+    }
+    .fright {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .inputnavbar {
+        margin: 15px 15px 0px 0px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    th{
+        vertical-align: middle;
+
+    }
+    .location {
+        float: left;
+    }
+}
